@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#16213E"
+    tools:context=".MainActivity">
+
+    <!--color palette: https://colorhunt.co/palette/16213e0f3460533483e94560-->
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rebenta a Bolha"
+        android:textColor="#FFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <Button
+        android:id="@+id/niveis"
+        android:layout_width="240dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="122dp"
+        android:backgroundTint="#0F3460"
+        android:textColor="#E94560"
+        android:textSize="22sp"
+        android:text="Níveis"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo" />
+
+    <Button
+        android:id="@+id/classific"
+        android:layout_width="240dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="122dp"
+        android:backgroundTint="#0F3460"
+        android:text="Classificações"
+        android:textColor="#E94560"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/niveis" />
+
+    <Button
+        android:id="@+id/loginHome"
+        android:layout_width="240dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="122dp"
+        android:backgroundTint="#0F3460"
+        android:textColor="#E94560"
+        android:textSize="22sp"
+        android:text="Login/Register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/classific" />
+
+    <Button
+        android:id="@+id/sair"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="272dp"
+        android:backgroundTint="#533483"
+        android:text="Sair"
+        android:textColor="#FFFF"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/classific" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
